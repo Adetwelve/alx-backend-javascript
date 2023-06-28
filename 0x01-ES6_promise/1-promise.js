@@ -7,6 +7,7 @@ export default function getFullResponseFromAPI(success) {
         body: 'Success',
       };
       resolve(response);
+      });
     } else {
       reject(new Error('The fake API is not working currently'));
     }
